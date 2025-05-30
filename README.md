@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 SpaceX Explorer
 
-## Getting Started
+**SpaceX Explorer** is a statically generated web application built using the **Next.js App Router** and the [SpaceX API](https://github.com/r-spacex/SpaceX-API). It allows users to explore launches, rockets, ships, payloads, launchpads, and cores with interconnected, paginated routes and detailed entity views. All pages are generated at build time for fast load speeds and SEO benefits using `generateStaticParams` and `generateMetadata`.
 
-First, run the development server:
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js (App Router)**
+- **React**
+- **Tailwind CSS**
+- **Static Site Generation (SSG)**
+- **GraphQL-style routing using REST endpoints**
+- **SpaceX API**
+- **Vercel (Deployment)**
+
+---
+
+## ✨ Features
+
+- 🔍 **Paginated Listings** for:
+  - Launches
+  - Rockets
+  - Ships
+  - Payloads
+  - Launch Pads
+  - Cores
+
+- 🛰️ **Detailed Views** for each item with full metadata
+- 🔗 **Interlinked Entities** (e.g., launch details show related rocket, payloads, ship, launchpad, etc.)
+- 🧭 **SEO-friendly routing** with static metadata generation
+- 📦 **Static Site Generation (SSG)** using `generateStaticParams`
+- 🎨 **Responsive UI** with Tailwind CSS
+
+---
+
+## 🚧 Folder Structure
+
+app/
+├── launches/
+│   ├── [id]/             # Launch detail pages
+│   └── page/             # Paginated launch listing
+├── rockets/
+├── ships/
+├── payloads/
+├── launchpads/
+├── cores/
+├── search/               # (Optional extension)
+├── layout.tsx            # Root layout
+├── page.tsx              # Home page
+components/               # Reusable UI components
+lib/                      # API fetching and utils
+public/
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repo
 
 ```bash
+git clone https://github.com/vijaybkhot/SpaceX-Explorer.git
+cd SpaceX-Explorer
+
+2. Install Dependencies
+
+npm install
+
+3. Run the Dev Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run build
+npm run start
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+⸻
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📁 Data Source
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Data is fetched from the free and open-source SpaceX REST API, with client-side logic ensuring routing to valid pages and handling invalid paths with custom 404s.
 
-## Deploy on Vercel
+⸻
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🙋‍♂️ Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vijay Khot
+	•	GitHub: @vijaybkhot
+	•	LinkedIn: [Vijay Sinh Khot](https://www.linkedin.com/in/vijay-khot/)
+
+⸻
+
+📄 License
+
+This project is for academic use and demonstration as part of CS-554 Lab 7 at Stevens Institute of Technology. All data belongs to SpaceX.
+
+⸻
