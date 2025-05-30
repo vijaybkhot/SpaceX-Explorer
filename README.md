@@ -34,26 +34,6 @@
 
 ---
 
-## 🚧 Folder Structure
-
-app/
-├── launches/
-│   ├── [id]/             # Launch detail pages
-│   └── page/             # Paginated launch listing
-├── rockets/
-├── ships/
-├── payloads/
-├── launchpads/
-├── cores/
-├── search/               # (Optional extension)
-├── layout.tsx            # Root layout
-├── page.tsx              # Home page
-components/               # Reusable UI components
-lib/                      # API fetching and utils
-public/
-
----
-
 ## 📦 Getting Started
 
 ### 1. Clone the Repo
