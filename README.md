@@ -41,6 +41,7 @@
 ```bash
 git clone https://github.com/vijaybkhot/SpaceX-Explorer.git
 cd SpaceX-Explorer
+```
 
 2. Install Dependencies
 
