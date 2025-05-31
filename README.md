@@ -43,17 +43,19 @@ git clone https://github.com/vijaybkhot/SpaceX-Explorer.git
 cd SpaceX-Explorer
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 npm install
 
-3. Run the Dev Server
+
+### 3. Run the Dev Server
 
 npm run dev
 
 Visit http://localhost:3000 in your browser.
 
-4. Build for Production
+
+### 4. Build for Production
 
 npm run build
 npm run start
