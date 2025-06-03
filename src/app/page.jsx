@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div className="home-page">
-      <h1>Welcome to SpaceX API</h1>
+      <h1>Welcome to SpaceX Explorer</h1>
       <p>
         This website provides information about SpaceX, including its history,
         launches, rockets, payloads, and more. Use the links below to explore
