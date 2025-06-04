@@ -3,6 +3,8 @@
 **SpaceX Explorer** is a statically generated web application built using the **Next.js App Router** and the [SpaceX API](https://github.com/r-spacex/SpaceX-API). It allows users to explore launches, rockets, ships, payloads, launchpads, and cores with interconnected, paginated routes and detailed entity views. All pages are generated at build time for fast load speeds and SEO benefits using `generateStaticParams` and `generateMetadata`.
 
 ---
+🔗 **Live Project:** [space-x-explorer-beta.vercel.app](https://space-x-explorer-beta.vercel.app/)
+---
 
 ## 🛠️ Tech Stack
 
