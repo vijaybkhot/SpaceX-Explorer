@@ -75,12 +75,12 @@ Data is fetched from the free and open-source SpaceX REST API, with client-side 
 
 Vijay Khot
 	•	GitHub: @vijaybkhot
-	•	LinkedIn: [Vijay Sinh Khot](https://www.linkedin.com/in/vijay-khot/)
+	•	LinkedIn: [Vijay Khot](https://www.linkedin.com/in/vijay-khot/)
 
 ⸻
 
 📄 License
 
-This project is for academic use and demonstration as part of CS-554 Lab 7 at Stevens Institute of Technology. All data belongs to SpaceX.
+This is a personal project. All data belongs to SpaceX.
 
 ⸻
